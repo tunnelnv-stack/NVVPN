@@ -1,4 +1,12 @@
 {
+  "LICENSE": {
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "bytes": 35149
+  },
+  "LICENSING.md": {
+    "sha256": "64289073e11c492e37208c23be959b4b133b4cbb89509b6ad1eab2d552454ec3",
+    "bytes": 5606
+  },
   "src/Profile.cs": {
     "sha256": "d67eb6d32c41fb1e629a3486066b3cccf9b0adc782cc87bda27c00e59183355e",
     "bytes": 16246
@@ -140,12 +148,12 @@
     "bytes": 9305
   },
   "windows-app/App.cs": {
-    "sha256": "54da3956944fa9cb2a21320058095a8a2998f69e1ecde4d7b12d509118b1a1c8",
-    "bytes": 32827
+    "sha256": "9294e1ff26ddbe290c6deb52370e7787b97517253f3af972857de2f54c654a25",
+    "bytes": 32912
   },
   "windows-app/LICENSE-AUDIT.md": {
-    "sha256": "ee035e47aabf2297893bd2165345f0c4c9134ebd92c8207a51c39643a781603d",
-    "bytes": 14221
+    "sha256": "d624f85dc8876166b5c680fce990406ef56cd255080a00a77eb7bbb2f7843e06",
+    "bytes": 14903
   },
   "windows-app/LICENSE-REMEDIATION.md": {
     "sha256": "a7b2f3a7ae77a07d0137834769d7186014e8bfa275c1c1d9762bb307e74a6721",
@@ -168,8 +176,8 @@
     "bytes": 34066
   },
   "windows-app/OWN-CODE-LICENSE-DECISION.md": {
-    "sha256": "6c7630553d48d34a62772371204a621d5de0a1d2e7dcd2f8c2c5eb300f3816ed",
-    "bytes": 3367
+    "sha256": "88f5b30e80a7421449e9a4044f4ac16f4c273b4d2f33ec14cca925b1816a8c78",
+    "bytes": 4210
   },
   "windows-app/OWNER-DECISIONS.md": {
     "sha256": "3c59e766d2ed5733c5537959fae2f7016322c3cf9eeab7e774210ce094690d0f",
@@ -204,8 +212,8 @@
     "bytes": 4191
   },
   "windows-app/UpdateTests.cs": {
-    "sha256": "b378f1f92dc60cb989bb4e1fb9597e88d7de6225858196fc5cb31e37618b48d1",
-    "bytes": 10838
+    "sha256": "14710e3667edf4edd8e2752649fc5397354812472173c9c5c8d77598bf36b3b8",
+    "bytes": 11416
   },
   "windows-app/UpdateTrust.cs": {
     "sha256": "a9e45660e6548dab0db94af7166d8cc8204db67642c38c7072456f128f25a1fa",
@@ -220,7 +228,7 @@
     "bytes": 14923
   },
   "windows-app/app.manifest": {
-    "sha256": "7d2f6d4bacb17ae6d6a30586d35412f5cc15b2253f9a95326b1d1c54f521608c",
+    "sha256": "77a4479df9b8f0a2bbb3847b066e252eea4f9595a62d6413c2940fc780d19aee",
     "bytes": 743
   },
   "windows-app/assets/ART-PROVENANCE.md": {
@@ -288,7 +296,7 @@
     "bytes": 2836
   },
   "windows-app/installer/NVVPN.iss": {
-    "sha256": "263ce584c97bda45a0d91e91985098e6f1d087fe086fd459a1acc6db76ef8fb7",
+    "sha256": "edc96632a2266a124e3f0888606c83e5db25d45a48b415509d90661f873e70cc",
     "bytes": 6050
   },
   "windows-app/installer/make-icon.ps1": {
@@ -296,39 +304,23 @@
     "bytes": 2114
   },
   "windows-app/package.py": {
-    "sha256": "a78d92cd27017bb24a184671dc82dec39cb8471d269128f08e16059a84a1be6c",
-    "bytes": 12205
+    "sha256": "93ae8a8b4f9bc5f05abe8ffb96b5e2f628fdfbb60782a72f54970d578c29eee2",
+    "bytes": 12559
   },
   "windows-app/prepare-repository.py": {
-    "sha256": "31df35d9ab534ae3b09783e1b2bb40097ed6a4985e8b3532fbf676b3c99eae74",
-    "bytes": 5947
+    "sha256": "bd6c72eefc695cf6ac5cd45ad2394c05b857d230c40d9d57ba00d3f07f9531b7",
+    "bytes": 6026
   },
   "windows-app/rebuild-source.ps1": {
     "sha256": "73e11b881287c25113d29ef43d627a404909fb637757c6b59005443bff6436f9",
     "bytes": 716
   },
   "windows-app/release-notes.txt": {
-    "sha256": "15d111a3a08f5f40bc1976950120d24914d14952ef2a8998f5f81513c0a93236",
-    "bytes": 293
+    "sha256": "c0b0dbdfe35b0eeae6b8a9220aa8abc590d8d3502a527c03f3fcd6fe80d0f201",
+    "bytes": 423
   },
   "windows-app/release-version.txt": {
-    "sha256": "832eddd23d57d755885475df2e64d0c4cd4fc65842e3a21d8379475d4be01c50",
+    "sha256": "8a29179f3d8432f59d39a091d09d9dcdc8f41fb1aec6fae0e2dc41565f52ce70",
     "bytes": 7
-  },
-  "LICENSE": {
-    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-    "bytes": 35149
-  },
-  "LICENSING.md": {
-    "sha256": "ed0115981bf2c5eaa8bb18911f9e715e5ec8185a9f8cc4f6043ac371e03dede1",
-    "bytes": 5217
-  },
-  "LICENSE-SCOPE.json": {
-    "sha256": "0be10132e7e2c27bc589b7954610142a5ee6738a78e2e2a6934173862e33270f",
-    "bytes": 16643
-  },
-  "legal/THIRD-PARTY-PUBLICATION-ASSESSMENT.md": {
-    "sha256": "ebdc7fec6bfc07357087287692ea97a457f7e79b241b696f3a530e422ab56c8d",
-    "bytes": 12995
   }
 }

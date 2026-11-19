@@ -27,6 +27,8 @@ sourcezip=out/'NVVPN-Sources.zip'
 manifest=[]
 if app_version!=(root/'windows-app/release-version.txt').read_text().strip():raise RuntimeError('Source version mismatch')
 with zipfile.ZipFile(sourcezip,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+    for relative in ['LICENSE','LICENSING.md']:
+        z.write(root/relative,'NVVPN/'+relative)
     z.writestr('BUILD-INFO.json',json.dumps({'version':app_version,'commit':args.commit,'platform':'windows-x64','go':'go1.27.4','dotnet':'4.8','inno':'7.1.1'},indent=2))
     for relative in ['windows-app/release-version.txt','windows-app/release-notes.txt','windows-app/RELEASE-GUIDE.md','windows-app/Updates.cs','windows-app/UpdateInstall.cs','windows-app/UpdateUI.cs','windows-app/UpdateTests.cs','windows-app/UpdateScenario.cs','windows-app/UpdateTrust.cs','windows-app/ReleaseTools.cs','windows-app/LocalDiagnostics.cs','windows-app/Agreement.cs','windows-app/AgreementDialog.cs','windows-app/AgreementTests.cs','windows-app/Agreement.ru.txt','windows-app/OWNER-DECISIONS.md','windows-app/assets/ConnectionArt.jpg','windows-app/assets/ART-PROVENANCE.md','windows-app/App.cs','windows-app/MainWindow.cs','windows-app/MainWindow.xaml','windows-app/Lifecycle.cs','windows-app/Startup.cs','windows-app/rebuild-source.ps1','windows-app/SOURCE-README.md','windows-app/LICENSE-AUDIT.md','windows-app/LICENSE-REMEDIATION.md','windows-app/OWN-CODE-LICENSE-DECISION.md','windows-app/build.ps1','windows-app/build-installer.ps1','windows-app/README.md','windows-app/package.py','windows-app/installer/NVVPN.iss','windows-app/installer/make-icon.ps1','src/Profile.cs','windows-app/app.manifest']:
         z.write(root/relative,'NVVPN/'+relative)
@@ -106,6 +108,7 @@ with zipfile.ZipFile(sourcezip,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
     z.write(supplement/'LGPL-3.0.txt','LICENSE-LGPL-3.0.txt')
     z.write(root/'vendor/engine/wintun.dll','NVVPN/vendor/engine/wintun.dll')
     z.write(root/'vendor/licenses/wintun-binary-LICENSE.txt','LICENSE-WINTUN.txt')
+notices.append('\n\n===== Original NVVPN code and resources =====\nCopyright (C) 2026 NVVPN contributors. GPL-3.0-or-later. See NVVPN/LICENSE and NVVPN/LICENSING.md in the accompanying source archive. Third-party rights and notices remain unchanged.\n')
 notices.append('\n\n===== Wintun official binary =====\n'+(root/'vendor/licenses/wintun-binary-LICENSE.txt').read_text(encoding='utf-8-sig'))
 notices.append('\n\n===== Go runtime =====\n'+(goroot/'LICENSE').read_text(encoding='utf-8'))
 notices.append('\n\n===== Inno Setup installer =====\n'+(root/'vendor/licenses/inno-setup-LICENSE.txt').read_text(encoding='utf-8-sig'))

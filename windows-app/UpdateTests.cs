@@ -22,6 +22,12 @@ namespace FinlandVPN
             var lines=new List<string>();int fail=0;Action<bool> check=value=>{if(!value)throw new Exception("Assertion");};
             Action<string,Action> test=(name,action)=>{try{action();lines.Add("PASS "+name);}catch{fail++;lines.Add("FAIL "+name);}};
             Action<Action> rejects=action=>{bool rejected=false;try{action();}catch{rejected=true;}check(rejected);};
+            test("runtime target enables system TLS defaults",()=>{
+                var target=(System.Runtime.Versioning.TargetFrameworkAttribute)Attribute.GetCustomAttribute(typeof(Updates).Assembly,typeof(System.Runtime.Versioning.TargetFrameworkAttribute));
+                check(target!=null&&target.FrameworkName==".NETFramework,Version=v4.8");
+                check(System.Net.ServicePointManager.SecurityProtocol==(System.Net.SecurityProtocolType)0);
+                check(System.Net.ServicePointManager.ServerCertificateValidationCallback==null);
+            });
             string root=Path.Combine(Path.GetDirectoryName(Path.GetFullPath(report)),"update-fixture-"+Guid.NewGuid().ToString("N"));SecureFiles.DirectoryAcl(root,true,false);
             using(var rsa=new RSACryptoServiceProvider(3072)){
                 rsa.PersistKeyInCsp=false;string key=rsa.ToXmlString(false);byte[] payload=Encoding.UTF8.GetBytes("Synthetic installer payload, never executed.");

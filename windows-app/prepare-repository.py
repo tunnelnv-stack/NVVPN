@@ -21,6 +21,7 @@ for node in ast.walk(tree):
             if isinstance(element, ast.Constant) and isinstance(element.value, str) and element.value.startswith(('windows-app/', 'src/', 'vendor/')):
                 paths.add(element.value)
 paths.add('windows-app/prepare-repository.py')
+paths.update(('LICENSE','LICENSING.md'))
 for p in (root/'windows-app/engine').iterdir():
     if p.is_file() and (p.suffix=='.go' or p.name in ('go.mod','go.sum')):
         paths.add(p.relative_to(root).as_posix())
@@ -28,7 +29,7 @@ provenance=json.loads((root/'vendor/license-supplement/PROVENANCE.json').read_te
 paths.add('vendor/license-supplement/PROVENANCE.json')
 for relative in provenance['files']:
     paths.add('vendor/license-supplement/'+relative)
-# Exact official DLL is needed by the documented source build; redistribution remains legally blocked.
+# Exact official DLL is needed by the documented source build; retain its license.
 paths.add('vendor/engine/wintun.dll')
 records={}
 for relative in sorted(paths):
@@ -58,7 +59,7 @@ for relative in sorted(paths):
     shutil.copyfile(root/relative,target)
 (destination/'PUBLIC-FILES.json').write_text(json.dumps(records,indent=2),encoding='utf-8')
 (destination/'.gitignore').write_text('private/\nartifacts/\nrelease/\nrebuilt-*/\n/tools/\n*.dpapi\n*.conf\n*.key\n*.pfx\n*.p12\n*.jks\n*.keystore\nwindows-app/installer/hashes.iss\nwindows-app/installer/NVVPN.ico\n',encoding='utf-8')
-(destination/'README.md').write_text('''# NVVPN — локально подготовленное дерево публикации
+(destination/'README.md').write_text('''# NVVPN
 
 Клиент Windows x64 на основе AmneziaWG. Владелец канала: tunnelnv-stack.
 Контакт: tunnelnv@gmail.com. Исходники этого дерева соответствуют указанной в
@@ -66,13 +67,15 @@ windows-app/release-version.txt версии. Инструкции: windows-app/
 и windows-app/RELEASE-GUIDE.md.
 
 Зависимости с точными версиями и материалами пересборки предоставляются полным
-NVVPN-X.Y.Z-Source.zip вместе с каждым будущим выпуском. Самого автоматического
+NVVPN-X.Y.Z-Source.zip вместе с каждым выпуском. Самого автоматического
 GitHub Source code.zip недостаточно для автономной сборки без модулей.
 
-Состояние: локальная подготовка, не опубликовано. Вопросы лицензии собственной
-оболочки/ресурсов, GPL/Wintun и применения LGPL/WinDivert требуют решения до
-распространения. Лицензии и уведомления сторонних авторов сохранены; этот README
-не назначает лицензию чужому или собственному коду. Не публиковать без разрешения.
+Оригинальные части NVVPN: GPL-3.0-or-later, Copyright (C) 2026 NVVPN contributors.
+Область действия: LICENSING.md. Лицензии, исходники и уведомления сторонних авторов
+сохранены в соответствующих полных Source ZIP. Исторические аудиты сохранены.
+Обновления: https://github.com/tunnelnv-stack/NVVPN/releases/latest
+Подлинность обновлений проверяется подписью RSA-3072/SHA-256 манифеста и хешем
+установщика. Authenticode-подписи издателя у EXE нет. Автоподключения VPN нет.
 
 PUBLIC-FILES.json содержит проверенный список исходных файлов. Личные профили,
 закрытые ключи, подписи и рабочие журналы исключены. Наличие сканера не заменяет

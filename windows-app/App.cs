@@ -22,6 +22,7 @@ using System.Windows.Media.Imaging;
 using Microsoft.Win32;
 
 [assembly: AssemblyTitle("NVVPN")]
+[assembly: System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.8")]
 
 
 namespace FinlandVPN

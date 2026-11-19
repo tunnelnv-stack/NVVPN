@@ -3,7 +3,7 @@
 #endif
 #include "hashes.iss"
 #ifndef AppVersion
-#define AppVersion "0.4.4"
+#define AppVersion "0.4.6"
 #endif
 
 [Setup]
