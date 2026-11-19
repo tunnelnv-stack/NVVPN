@@ -172,8 +172,8 @@
     "bytes": 27332
   },
   "windows-app/MainWindow.xaml": {
-    "sha256": "0347dc86bae10eab4d9d283b1d14a7befa4c1637d2fac6de01c89fca161050ed",
-    "bytes": 34066
+    "sha256": "3992181aad669b2eeaca8f9694cf66f7afacfadbc0fa9a605c19439b5535051c",
+    "bytes": 34078
   },
   "windows-app/OWN-CODE-LICENSE-DECISION.md": {
     "sha256": "88f5b30e80a7421449e9a4044f4ac16f4c273b4d2f33ec14cca925b1816a8c78",
@@ -228,7 +228,7 @@
     "bytes": 14923
   },
   "windows-app/app.manifest": {
-    "sha256": "77a4479df9b8f0a2bbb3847b066e252eea4f9595a62d6413c2940fc780d19aee",
+    "sha256": "aa8717ec4931271ce3e11f02f3237f0c1029e600d221efb4d7c1b11a7e68d2bc",
     "bytes": 743
   },
   "windows-app/assets/ART-PROVENANCE.md": {
@@ -296,7 +296,7 @@
     "bytes": 2836
   },
   "windows-app/installer/NVVPN.iss": {
-    "sha256": "edc96632a2266a124e3f0888606c83e5db25d45a48b415509d90661f873e70cc",
+    "sha256": "ff8afd8b014e4c33a5b4872bc6185bdc97ff5f0a8264098c2eeb719386ee033c",
     "bytes": 6050
   },
   "windows-app/installer/make-icon.ps1": {
@@ -316,11 +316,11 @@
     "bytes": 716
   },
   "windows-app/release-notes.txt": {
-    "sha256": "c0b0dbdfe35b0eeae6b8a9220aa8abc590d8d3502a527c03f3fcd6fe80d0f201",
-    "bytes": 423
+    "sha256": "58f56e9b7a31e74deaa867629f37f27b648acd0f912d79198bfd1e7b325c6e65",
+    "bytes": 86
   },
   "windows-app/release-version.txt": {
-    "sha256": "8a29179f3d8432f59d39a091d09d9dcdc8f41fb1aec6fae0e2dc41565f52ce70",
+    "sha256": "02b943ece3888f9bcccb8c6265cdc627787bcab24cfcffe9779eb20f5a7d08fb",
     "bytes": 7
   }
 }

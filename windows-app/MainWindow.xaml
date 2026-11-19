@@ -38,7 +38,7 @@
           <StackPanel>
             <Border Width="80" Height="80" CornerRadius="16" Background="#112A32" BorderBrush="#4DBCAE" BorderThickness="1" HorizontalAlignment="Left" Margin="0,0,0,17"><Grid><Border BorderBrush="#224C54" BorderThickness="1" CornerRadius="11" Margin="5"/><TextBlock Text="NV" Foreground="{StaticResource Metal}" FontSize="39" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/><Path Data="M 8,74 L 74,34" Stroke="#A62F40" StrokeThickness="1.5"/></Grid></Border>
             <TextBlock Text="NVVPN" FontSize="29" FontWeight="Bold"/>
-            <TextBlock Text="ЛИЧНЫЙ VPN" FontSize="11" Foreground="#91AAB7" Margin="2,7,0,0"/>
+            <TextBlock Text="СЕМЕЙНЫЙ VPN" FontSize="11" Foreground="#91AAB7" Margin="2,7,0,0"/>
           </StackPanel>
           <StackPanel Grid.Row="1" Margin="0,30,0,0">
             <Button x:Name="HomeNav" Style="{StaticResource NavButton}" Background="#173B42" BorderBrush="#316E72" AutomationProperties.Name="Подключение"><StackPanel Orientation="Horizontal"><TextBlock Text="&#xE7E8;" FontFamily="Segoe MDL2 Assets" FontSize="18" Margin="0,0,13,0" VerticalAlignment="Center"/><TextBlock Text="Подключение"/></StackPanel></Button>
@@ -60,7 +60,7 @@
             <Border x:Name="HeroArt" BorderBrush="#38747C" BorderThickness="1" CornerRadius="14">
               <Grid MinHeight="366">
                 <Grid Margin="24,20,24,20"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
-                  <StackPanel><TextBlock FontSize="26" FontWeight="Bold"><Run Text="NV" Foreground="{StaticResource Metal}"/><Run Text="VPN" Foreground="#40DFD8"/></TextBlock><TextBlock Text="ЛИЧНЫЙ VPN" Foreground="#BBD6DB" FontSize="10" Margin="2,4,0,0"/></StackPanel>
+                  <StackPanel><TextBlock FontSize="26" FontWeight="Bold"><Run Text="NV" Foreground="{StaticResource Metal}"/><Run Text="VPN" Foreground="#40DFD8"/></TextBlock><TextBlock Text="СЕМЕЙНЫЙ VPN" Foreground="#BBD6DB" FontSize="10" Margin="2,4,0,0"/></StackPanel>
                   <StackPanel Grid.Row="1" Margin="0,18,0,24" VerticalAlignment="Center">
                     <TextBlock x:Name="StatusText" Text="Не подключён" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" AutomationProperties.LiveSetting="Polite"/>
                     <TextBlock x:Name="StatusHint" Text="Выберите профиль и подключитесь" FontSize="14" Foreground="#BDCFD8" TextWrapping="Wrap" TextAlignment="Center" Margin="0,9,0,20"/>
@@ -112,7 +112,7 @@
             <TextBlock Text="О программе" FontSize="27" FontWeight="SemiBold" Margin="0,0,0,23"/>
             <Border Background="{StaticResource CardBackground}" BorderBrush="#253C49" BorderThickness="1" CornerRadius="12" Padding="22"><StackPanel>
               <TextBlock x:Name="VersionText" Text="NVVPN" FontSize="27" FontWeight="SemiBold"/>
-              <TextBlock Text="Личный VPN-клиент для подключения к собственному серверу. Управление профилями и исключениями приложений и сайтов." TextWrapping="Wrap" Foreground="#BBCCD5" LineHeight="22" Margin="0,12,0,0"/>
+              <TextBlock Text="Семейный VPN-клиент для подключения к собственному серверу. Управление профилями и исключениями приложений и сайтов." TextWrapping="Wrap" Foreground="#BBCCD5" LineHeight="22" Margin="0,12,0,0"/>
               <TextBlock Text="Благодарности" FontSize="18" FontWeight="SemiBold" Margin="0,22,0,0"/>
               <TextBlock Text="NVVPN использует технологию AmneziaWG. Благодарим команду Amnezia за разработку и развитие технологий защищённого сетевого соединения с открытым исходным кодом." TextWrapping="Wrap" Foreground="#BBCCD5" LineHeight="22" Margin="0,10,0,0"/>
               <TextBlock Text="NVVPN — независимый проект и не является официальным приложением команды Amnezia." TextWrapping="Wrap" Foreground="{StaticResource Muted}" Margin="0,12,0,0"/>
