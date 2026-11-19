@@ -1,0 +1,318 @@
+{
+  "src/Profile.cs": {
+    "sha256": "d67eb6d32c41fb1e629a3486066b3cccf9b0adc782cc87bda27c00e59183355e",
+    "bytes": 16246
+  },
+  "vendor/engine/wintun.dll": {
+    "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce",
+    "bytes": 427552
+  },
+  "vendor/license-supplement/GPL-3.0.txt": {
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "bytes": 35149
+  },
+  "vendor/license-supplement/INNO-RUNTIME-NOTICES.txt": {
+    "sha256": "9c31c2b96f50f87c3baa941cda4ffd4ffb012880514e681195c980b005471985",
+    "bytes": 21760
+  },
+  "vendor/license-supplement/LGPL-2.1.txt": {
+    "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861",
+    "bytes": 26527
+  },
+  "vendor/license-supplement/LGPL-3.0.txt": {
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "bytes": 7652
+  },
+  "vendor/license-supplement/PROVENANCE.json": {
+    "sha256": "57c4a5779faa2772b0b77e0f224af1658c3a50c1d2f6cef88c8821551b0d3209",
+    "bytes": 6668
+  },
+  "vendor/license-supplement/WINDIVERT-LICENSE.txt": {
+    "sha256": "14a0cb5214d536e4fdae6aa3f5696f981eeda106cd026e9794bba489ee79d628",
+    "bytes": 61349
+  },
+  "vendor/license-supplement/WINDIVERT-OFFICIAL-HASHES.json": {
+    "sha256": "f9490502eb41efdf31e7283c167238c4c60c518e0d26caa14eb301e3ed541d8d",
+    "bytes": 656
+  },
+  "vendor/license-supplement/WinDivert-2.2.2-source.zip": {
+    "sha256": "65ec79c9e6afa99f648a3f4d1f6db794640b40d0b65bd438770ea503ee14ecb7",
+    "bytes": 199555
+  },
+  "vendor/license-supplement/bzip2-LICENSE.txt": {
+    "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+    "bytes": 1896
+  },
+  "vendor/license-supplement/gvisor-ebpf/LICENSE": {
+    "sha256": "5af94223052169198cfa2195455b7d87209d9aa0fff4705822f328b4b272facb",
+    "bytes": 12519
+  },
+  "vendor/license-supplement/gvisor-ebpf/runsc/sandbox/bpf/BUILD": {
+    "sha256": "d613850dfdd39fd9adbb0ee420d46072010fed0f52fb018c8426163a707b9bd9",
+    "bytes": 450
+  },
+  "vendor/license-supplement/gvisor-ebpf/runsc/sandbox/bpf/af_xdp.ebpf.c": {
+    "sha256": "45adcef7bc9d16c9f40fd2709b2878e7c5f9ce89a65f563a8208a88a6b11e17a",
+    "bytes": 1944
+  },
+  "vendor/license-supplement/gvisor-ebpf/tools/bazeldefs/defs.bzl": {
+    "sha256": "a4328cf94ce74ffd14aa5d3d471513100fecf4111a5bb62e29ddf4690cc93282",
+    "bytes": 3472
+  },
+  "vendor/license-supplement/gvisor-ebpf/tools/defs.bzl": {
+    "sha256": "f4a3558b403bd78b2c606555af21b51a4e2660b567dfa8a5b1db6683b93eddc8",
+    "bytes": 11557
+  },
+  "vendor/license-supplement/inno-7.1.1/Components/Lzma2/lzma-sdk.txt": {
+    "sha256": "4959662697d44ed9c63c6f15d2b08cedc02cdc312a673aef191b1b6653a186c2",
+    "bytes": 15835
+  },
+  "vendor/license-supplement/inno-7.1.1/Components/Lzma2/lzma.txt": {
+    "sha256": "ab14139964693ac041f34319728bb96e0c924498e7dfcd1eabcde76c9caf15b8",
+    "bytes": 11194
+  },
+  "vendor/license-supplement/inno-7.1.1/Components/UniPs/LICENSE.md": {
+    "sha256": "a08799bb2385a3af99a9bbb7c746d0ad9ac7dd07be0fb1473f2f4d1dc3e11bd1",
+    "bytes": 1098
+  },
+  "vendor/license-supplement/inno-7.1.1/Components/UniPs/rev.txt": {
+    "sha256": "eadffd9fc55db3825fc53ea50dba95d779e8da35d2a9b4344a29a373d575551c",
+    "bytes": 49
+  },
+  "vendor/license-supplement/inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecode.h": {
+    "sha256": "920b2462201edbe05c0c79db6729f6965e4f135455771488d29942aff27d73eb",
+    "bytes": 2807
+  },
+  "vendor/license-supplement/inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeInno.c": {
+    "sha256": "56e680b6569ee429134db34709b0f8e32ad06dc84d281807284df7f149578733",
+    "bytes": 1044
+  },
+  "vendor/license-supplement/inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeSize.c": {
+    "sha256": "54d7395db7e426b2d2a313806cadd3601060ac593b60c46045992ef540898277",
+    "bytes": 18997
+  },
+  "vendor/license-supplement/inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaTypes.h": {
+    "sha256": "786bc430e564edce5667f47db3ea16d7457fa06affaacd866e831925697cd48c",
+    "bytes": 894
+  },
+  "vendor/license-supplement/inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/compile.bat": {
+    "sha256": "4b41ff12ff8ee8ac879d0fa1ef0c19f48463d59ba40f99bdfd3daf4402b87a94",
+    "bytes": 1439
+  },
+  "vendor/license-supplement/inno-7.1.1/SBOM.spdx.json": {
+    "sha256": "722e08b2704c06847b38bdb7ae270e8eaf03d17efb18416b3f195f3469e46fb9",
+    "bytes": 17370
+  },
+  "vendor/license-supplement/inno-7.1.1/license.txt": {
+    "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c",
+    "bytes": 1521
+  },
+  "vendor/license-supplement/zlib-LICENSE.txt": {
+    "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+    "bytes": 1002
+  },
+  "vendor/licenses/inno-setup-LICENSE.txt": {
+    "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c",
+    "bytes": 1521
+  },
+  "vendor/licenses/wintun-binary-LICENSE.txt": {
+    "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
+    "bytes": 5431
+  },
+  "vendor/sing-box-source/LICENSE": {
+    "sha256": "bb3805862b583aee73ad6f7805ec634747a37257a637a3069857843f05ea589c",
+    "bytes": 808
+  },
+  "windows-app/Agreement.cs": {
+    "sha256": "421c0b55759b9679a3bae6fb3580d09e092cdb1f09f9d37f34f3302647af03cb",
+    "bytes": 10098
+  },
+  "windows-app/Agreement.ru.txt": {
+    "sha256": "3f4c57e58602f721178b382047fe7e7a4920740ebcae9f7ca7eae198e8506a8b",
+    "bytes": 10148
+  },
+  "windows-app/AgreementDialog.cs": {
+    "sha256": "30a9131c649e7a80e3085451fe5e6dadf5530a5d77b1870e9fa1bbdac57bba63",
+    "bytes": 6588
+  },
+  "windows-app/AgreementTests.cs": {
+    "sha256": "c91dbfd76468a3d138e42e9a5aa985b275bef47f5044d2884247792b53d4311f",
+    "bytes": 9305
+  },
+  "windows-app/App.cs": {
+    "sha256": "54da3956944fa9cb2a21320058095a8a2998f69e1ecde4d7b12d509118b1a1c8",
+    "bytes": 32827
+  },
+  "windows-app/LICENSE-AUDIT.md": {
+    "sha256": "ee035e47aabf2297893bd2165345f0c4c9134ebd92c8207a51c39643a781603d",
+    "bytes": 14221
+  },
+  "windows-app/LICENSE-REMEDIATION.md": {
+    "sha256": "a7b2f3a7ae77a07d0137834769d7186014e8bfa275c1c1d9762bb307e74a6721",
+    "bytes": 11842
+  },
+  "windows-app/Lifecycle.cs": {
+    "sha256": "e131abd29744c0a400dc724b7ea75e2e750bd581f922e9d28a14cc31a01fa1d2",
+    "bytes": 3329
+  },
+  "windows-app/LocalDiagnostics.cs": {
+    "sha256": "7a8842e08a5f8c4ac59de843e58a8621372d1ad448b7c334f116b929de89afb1",
+    "bytes": 3603
+  },
+  "windows-app/MainWindow.cs": {
+    "sha256": "0c4bb12e9f407fa35e9ab9f772ea2a4a9ee72a89ab63da9a67616cc19d12e519",
+    "bytes": 27332
+  },
+  "windows-app/MainWindow.xaml": {
+    "sha256": "0347dc86bae10eab4d9d283b1d14a7befa4c1637d2fac6de01c89fca161050ed",
+    "bytes": 34066
+  },
+  "windows-app/OWN-CODE-LICENSE-DECISION.md": {
+    "sha256": "6c7630553d48d34a62772371204a621d5de0a1d2e7dcd2f8c2c5eb300f3816ed",
+    "bytes": 3367
+  },
+  "windows-app/OWNER-DECISIONS.md": {
+    "sha256": "3c59e766d2ed5733c5537959fae2f7016322c3cf9eeab7e774210ce094690d0f",
+    "bytes": 3865
+  },
+  "windows-app/README.md": {
+    "sha256": "918819c3bbc4400678638acd88567f31245f3a65e9b21c99b765a8e16504f087",
+    "bytes": 11233
+  },
+  "windows-app/RELEASE-GUIDE.md": {
+    "sha256": "fac9ade2708c9a30c64c6043f4b2d2c87c14a8f3e9e55b80fc25882ede8bf5d0",
+    "bytes": 6183
+  },
+  "windows-app/ReleaseTools.cs": {
+    "sha256": "8cb7b3e58f169f81e4260b570776fded105b76f4c1830a50100ebbfea168e42f",
+    "bytes": 3166
+  },
+  "windows-app/SOURCE-README.md": {
+    "sha256": "1e7bd3c75eaabb1678c27453db576d5481104a0a165759d2ed5ef218eb40b09b",
+    "bytes": 2692
+  },
+  "windows-app/Startup.cs": {
+    "sha256": "7f44e18ac24fefde6ab1e30c70a2b0708ea16268bb869c32d7a09228d385a6be",
+    "bytes": 3391
+  },
+  "windows-app/UpdateInstall.cs": {
+    "sha256": "087da112f8692cc5947ba17959452b7d3640a92eef47c71cbbfdb3d30b14086d",
+    "bytes": 18292
+  },
+  "windows-app/UpdateScenario.cs": {
+    "sha256": "fd25e651db1981039922fff3f2e8d1b14aced35e7f8baa5a830051b01bb256eb",
+    "bytes": 4191
+  },
+  "windows-app/UpdateTests.cs": {
+    "sha256": "b378f1f92dc60cb989bb4e1fb9597e88d7de6225858196fc5cb31e37618b48d1",
+    "bytes": 10838
+  },
+  "windows-app/UpdateTrust.cs": {
+    "sha256": "a9e45660e6548dab0db94af7166d8cc8204db67642c38c7072456f128f25a1fa",
+    "bytes": 684
+  },
+  "windows-app/UpdateUI.cs": {
+    "sha256": "7626df646bc0288491a75695da447230772faf4c7a27cfa0b8ef6bea630d7706",
+    "bytes": 8022
+  },
+  "windows-app/Updates.cs": {
+    "sha256": "08c7149691b3cf39adb27f8ef71cc5d20e0a473b9d1d3e9a036c29f61cb96cc1",
+    "bytes": 14923
+  },
+  "windows-app/app.manifest": {
+    "sha256": "7d2f6d4bacb17ae6d6a30586d35412f5cc15b2253f9a95326b1d1c54f521608c",
+    "bytes": 743
+  },
+  "windows-app/assets/ART-PROVENANCE.md": {
+    "sha256": "2d8d60a93eb17f42c9ed64884628737a294e5c3d83c3c264ab6fba972daa0c62",
+    "bytes": 2831
+  },
+  "windows-app/assets/ConnectionArt.jpg": {
+    "sha256": "39860c8d009c846ac2ec8fcbbb202cb922c6d0c965528218b6b510ce563fd849",
+    "bytes": 175830
+  },
+  "windows-app/build-installer.ps1": {
+    "sha256": "092aa7f688d6e8fde2d2de99c34eff41c42df64486355a4577eeeeb99cd56100",
+    "bytes": 2836
+  },
+  "windows-app/build.ps1": {
+    "sha256": "bf0c6c4b31acf34fe4b84cb44dfd92a2553a0b425ae24ca93c29c61f40cefc88",
+    "bytes": 4571
+  },
+  "windows-app/engine/cache_test.go": {
+    "sha256": "abca6995a7083cb359d064e294e73141b8550fa3add7d332dbc209e758f45438",
+    "bytes": 1914
+  },
+  "windows-app/engine/go.mod": {
+    "sha256": "474d66c27ba6ac352ad74616370347f7e447a40c1702939a4793c48cdb38e35b",
+    "bytes": 3326
+  },
+  "windows-app/engine/go.sum": {
+    "sha256": "f2f284a21893121f8ee11651b682de192354c7f6d739184b97ad92f29c7f5555",
+    "bytes": 13551
+  },
+  "windows-app/engine/lifetime.go": {
+    "sha256": "178b3c53755cbbcb8fa6b4964a26b5f5f0dbf9497062ee0d66c38ba906a7a101",
+    "bytes": 694
+  },
+  "windows-app/engine/lifetime_test.go": {
+    "sha256": "fa98b0a8a5773ac6ce737cd49adb3a2850eac4e8427a5e4fc832f7a721f7267f",
+    "bytes": 1147
+  },
+  "windows-app/engine/main.go": {
+    "sha256": "81b2b901e5c3998ff5f791e6fe1072b7174c7b5b0a065bba6d91a7b3f798c4da",
+    "bytes": 11998
+  },
+  "windows-app/engine/outbound_test.go": {
+    "sha256": "4cd6282630c1eeadd16ffa6ba59d9f5737fa5206f5665ab5f254d9aa0c0d6de9",
+    "bytes": 2585
+  },
+  "windows-app/engine/rules.go": {
+    "sha256": "e5e22f15790d5b0117f3eb91a51e945054855b7bb7b11b46032c8f16d1c96cb1",
+    "bytes": 5682
+  },
+  "windows-app/engine/rules_test.go": {
+    "sha256": "12829755635c52ec783d8b01561d87186bf248f5b12e71855b47d062f3b7c765",
+    "bytes": 3310
+  },
+  "windows-app/engine/udp_mtu_test.go": {
+    "sha256": "b97d7ccebb05c62a0ce349ac132cf9187b88f49e4474cac727f8fa59f84fd429",
+    "bytes": 2353
+  },
+  "windows-app/engine/udp_router_test.go": {
+    "sha256": "49e7b6422a7c5fe8823c84d25c2f2d758a6c9c063abb82e16ffae2810616a671",
+    "bytes": 3822
+  },
+  "windows-app/engine/video_rules_test.go": {
+    "sha256": "417d8f8c3f795a6f5e5781958defd1835fb29af9bfe4271e1d5c486fd9c114e3",
+    "bytes": 2836
+  },
+  "windows-app/installer/NVVPN.iss": {
+    "sha256": "263ce584c97bda45a0d91e91985098e6f1d087fe086fd459a1acc6db76ef8fb7",
+    "bytes": 6050
+  },
+  "windows-app/installer/make-icon.ps1": {
+    "sha256": "e3501b65a0c861f836e971c96ee7fae7e02f70185615156f732d4a61568f0815",
+    "bytes": 2114
+  },
+  "windows-app/package.py": {
+    "sha256": "a05c8f74b76b1626b73deb2b56fe5be50008b2861ef904b9da9913821f4cc72f",
+    "bytes": 12119
+  },
+  "windows-app/prepare-repository.py": {
+    "sha256": "1019beef7952d3eaa1e7142b0f1feb4e4eabda6e1db4bdd72a3aaf4eca658c84",
+    "bytes": 5865
+  },
+  "windows-app/rebuild-source.ps1": {
+    "sha256": "73e11b881287c25113d29ef43d627a404909fb637757c6b59005443bff6436f9",
+    "bytes": 716
+  },
+  "windows-app/release-notes.txt": {
+    "sha256": "ca0bd00cac3229775d7c14aaa733ec19db111260e5f4ef084e9ccf6a9fbee22d",
+    "bytes": 291
+  },
+  "windows-app/release-version.txt": {
+    "sha256": "175307e07ac7f0bdc0f3dba371ba3a202aaf3c0117368a93d2331e1bea4af4f3",
+    "bytes": 6
+  }
+}

@@ -1,0 +1,14 @@
+private/
+artifacts/
+release/
+rebuilt-*/
+tools/
+*.dpapi
+*.conf
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+windows-app/installer/hashes.iss
+windows-app/installer/NVVPN.ico

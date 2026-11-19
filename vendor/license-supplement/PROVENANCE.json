@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "files": {
+    "GPL-3.0.txt": {
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "source": "https://www.gnu.org/licenses/gpl-3.0.txt"
+    },
+    "LGPL-3.0.txt": {
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652,
+      "source": "https://www.gnu.org/licenses/lgpl-3.0.txt"
+    },
+    "LGPL-2.1.txt": {
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861",
+      "bytes": 26527,
+      "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING.LIB"
+    },
+    "WinDivert-2.2.2-source.zip": {
+      "sha256": "65ec79c9e6afa99f648a3f4d1f6db794640b40d0b65bd438770ea503ee14ecb7",
+      "bytes": 199555,
+      "source": "https://codeload.github.com/basil00/WinDivert/zip/refs/tags/v2.2.2"
+    },
+    "WINDIVERT-LICENSE.txt": {
+      "sha256": "14a0cb5214d536e4fdae6aa3f5696f981eeda106cd026e9794bba489ee79d628",
+      "bytes": 61349,
+      "source": "https://github.com/basil00/WinDivert/blob/v2.2.2/LICENSE"
+    },
+    "WINDIVERT-OFFICIAL-HASHES.json": {
+      "sha256": "f9490502eb41efdf31e7283c167238c4c60c518e0d26caa14eb301e3ed541d8d",
+      "bytes": 656,
+      "source": "https://github.com/basil00/WinDivert/releases/tag/v2.2.2"
+    },
+    "inno-7.1.1/SBOM.spdx.json": {
+      "sha256": "722e08b2704c06847b38bdb7ae270e8eaf03d17efb18416b3f195f3469e46fb9",
+      "bytes": 17370,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/SBOM.spdx.json"
+    },
+    "inno-7.1.1/license.txt": {
+      "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c",
+      "bytes": 1521,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/license.txt"
+    },
+    "inno-7.1.1/Components/UniPs/LICENSE.md": {
+      "sha256": "a08799bb2385a3af99a9bbb7c746d0ad9ac7dd07be0fb1473f2f4d1dc3e11bd1",
+      "bytes": 1098,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Components/UniPs/LICENSE.md"
+    },
+    "inno-7.1.1/Components/UniPs/rev.txt": {
+      "sha256": "eadffd9fc55db3825fc53ea50dba95d779e8da35d2a9b4344a29a373d575551c",
+      "bytes": 49,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Components/UniPs/rev.txt"
+    },
+    "inno-7.1.1/Components/Lzma2/lzma-sdk.txt": {
+      "sha256": "4959662697d44ed9c63c6f15d2b08cedc02cdc312a673aef191b1b6653a186c2",
+      "bytes": 15835,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Components/Lzma2/lzma-sdk.txt"
+    },
+    "inno-7.1.1/Components/Lzma2/lzma.txt": {
+      "sha256": "ab14139964693ac041f34319728bb96e0c924498e7dfcd1eabcde76c9caf15b8",
+      "bytes": 11194,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Components/Lzma2/lzma.txt"
+    },
+    "inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecode.h": {
+      "sha256": "920b2462201edbe05c0c79db6729f6965e4f135455771488d29942aff27d73eb",
+      "bytes": 2807,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecode.h"
+    },
+    "inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeInno.c": {
+      "sha256": "56e680b6569ee429134db34709b0f8e32ad06dc84d281807284df7f149578733",
+      "bytes": 1044,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeInno.c"
+    },
+    "inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeSize.c": {
+      "sha256": "54d7395db7e426b2d2a313806cadd3601060ac593b60c46045992ef540898277",
+      "bytes": 18997,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaDecodeSize.c"
+    },
+    "inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaTypes.h": {
+      "sha256": "786bc430e564edce5667f47db3ea16d7457fa06affaacd866e831925697cd48c",
+      "bytes": 894,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/LzmaTypes.h"
+    },
+    "inno-7.1.1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/compile.bat": {
+      "sha256": "4b41ff12ff8ee8ac879d0fa1ef0c19f48463d59ba40f99bdfd3daf4402b87a94",
+      "bytes": 1439,
+      "source": "https://github.com/jrsoftware/issrc/blob/is-7_1_1/Projects/Src/Compression.LZMA1SmallDecompressor/LzmaDecode/compile.bat"
+    },
+    "INNO-RUNTIME-NOTICES.txt": {
+      "sha256": "9c31c2b96f50f87c3baa941cda4ffd4ffb012880514e681195c980b005471985",
+      "bytes": 21760,
+      "source": "https://github.com/jrsoftware/issrc/tree/is-7_1_1"
+    },
+    "gvisor-ebpf/runsc/sandbox/bpf/af_xdp.ebpf.c": {
+      "sha256": "45adcef7bc9d16c9f40fd2709b2878e7c5f9ce89a65f563a8208a88a6b11e17a",
+      "bytes": 1944,
+      "source": "https://github.com/google/gvisor/blob/126ee58746d10ae5064e51dec96cf580b8116875/runsc/sandbox/bpf/af_xdp.ebpf.c"
+    },
+    "gvisor-ebpf/runsc/sandbox/bpf/BUILD": {
+      "sha256": "d613850dfdd39fd9adbb0ee420d46072010fed0f52fb018c8426163a707b9bd9",
+      "bytes": 450,
+      "source": "https://github.com/google/gvisor/blob/126ee58746d10ae5064e51dec96cf580b8116875/runsc/sandbox/bpf/BUILD"
+    },
+    "gvisor-ebpf/tools/defs.bzl": {
+      "sha256": "f4a3558b403bd78b2c606555af21b51a4e2660b567dfa8a5b1db6683b93eddc8",
+      "bytes": 11557,
+      "source": "https://github.com/google/gvisor/blob/126ee58746d10ae5064e51dec96cf580b8116875/tools/defs.bzl"
+    },
+    "gvisor-ebpf/tools/bazeldefs/defs.bzl": {
+      "sha256": "a4328cf94ce74ffd14aa5d3d471513100fecf4111a5bb62e29ddf4690cc93282",
+      "bytes": 3472,
+      "source": "https://github.com/google/gvisor/blob/126ee58746d10ae5064e51dec96cf580b8116875/tools/bazeldefs/defs.bzl"
+    },
+    "gvisor-ebpf/LICENSE": {
+      "sha256": "5af94223052169198cfa2195455b7d87209d9aa0fff4705822f328b4b272facb",
+      "bytes": 12519,
+      "source": "https://github.com/google/gvisor/blob/126ee58746d10ae5064e51dec96cf580b8116875/LICENSE"
+    },
+    "zlib-LICENSE.txt": {
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "bytes": 1002,
+      "source": "https://github.com/madler/zlib/blob/v1.3.2/LICENSE"
+    },
+    "bzip2-LICENSE.txt": {
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+      "bytes": 1896,
+      "source": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.8"
+    }
+  }
+}
