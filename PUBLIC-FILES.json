@@ -296,12 +296,12 @@
     "bytes": 2114
   },
   "windows-app/package.py": {
-    "sha256": "a05c8f74b76b1626b73deb2b56fe5be50008b2861ef904b9da9913821f4cc72f",
-    "bytes": 12119
+    "sha256": "2f4d0b1d9145f8f7bccd1dfbebc1b48b022b4f15a4f9ee2677aacad245c4ab2d",
+    "bytes": 12147
   },
   "windows-app/prepare-repository.py": {
-    "sha256": "1019beef7952d3eaa1e7142b0f1feb4e4eabda6e1db4bdd72a3aaf4eca658c84",
-    "bytes": 5865
+    "sha256": "31df35d9ab534ae3b09783e1b2bb40097ed6a4985e8b3532fbf676b3c99eae74",
+    "bytes": 5947
   },
   "windows-app/rebuild-source.ps1": {
     "sha256": "73e11b881287c25113d29ef43d627a404909fb637757c6b59005443bff6436f9",

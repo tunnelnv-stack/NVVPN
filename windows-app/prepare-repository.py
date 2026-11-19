@@ -57,7 +57,7 @@ for relative in sorted(paths):
     target.parent.mkdir(parents=True,exist_ok=True)
     shutil.copyfile(root/relative,target)
 (destination/'PUBLIC-FILES.json').write_text(json.dumps(records,indent=2),encoding='utf-8')
-(destination/'.gitignore').write_text('private/\nartifacts/\nrelease/\nrebuilt-*/\ntools/\n*.dpapi\n*.conf\n*.key\n*.pfx\n*.p12\n*.jks\n*.keystore\nwindows-app/installer/hashes.iss\nwindows-app/installer/NVVPN.ico\n',encoding='utf-8')
+(destination/'.gitignore').write_text('private/\nartifacts/\nrelease/\nrebuilt-*/\n/tools/\n*.dpapi\n*.conf\n*.key\n*.pfx\n*.p12\n*.jks\n*.keystore\nwindows-app/installer/hashes.iss\nwindows-app/installer/NVVPN.ico\n',encoding='utf-8')
 (destination/'README.md').write_text('''# NVVPN — локально подготовленное дерево публикации
 
 Клиент Windows x64 на основе AmneziaWG. Владелец канала: tunnelnv-stack.

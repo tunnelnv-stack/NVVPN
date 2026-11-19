@@ -2,7 +2,7 @@ private/
 artifacts/
 release/
 rebuilt-*/
-tools/
+/tools/
 *.dpapi
 *.conf
 *.key

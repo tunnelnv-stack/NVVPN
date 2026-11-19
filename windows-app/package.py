@@ -6,9 +6,9 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--release-dir',type=Path,default=root/'release/nvvpn-0.4.4')
 parser.add_argument('--version',default=(root/'windows-app/release-version.txt').read_text().strip())
 parser.add_argument('--commit',default='uncommitted')
-args=parser.parse_args(); release=args.release_dir.resolve(); version=args.version
+args=parser.parse_args(); release=args.release_dir.resolve(); app_version=args.version
 import re
-if not re.fullmatch(r'0\.[0-9]+\.[0-9]+',version):raise RuntimeError('Invalid version')
+if not re.fullmatch(r'0\.[0-9]+\.[0-9]+',app_version):raise RuntimeError('Invalid version')
 out=release/'app'
 go=Path(os.environ.get('NVVPN_GO',str(root/'tools/split-prototype/toolchain/go/bin/go.exe')))
 goroot=go.resolve().parents[1]
@@ -22,12 +22,12 @@ def read_notice(f):
     try:return f.read_text(encoding='utf-8-sig')
     except UnicodeDecodeError:return f.read_text(encoding='cp1252')
 
-notices=['NVVPN '+version+'\n\nThe combined routing engine is provided under GPL-3.0-or-later. Third-party components retain their licenses. Source archive accompanies this build. No warranty. NVVPN is an independent project, not an official Amnezia application.\nSee NVVPN/windows-app/LICENSE-AUDIT.md and SOURCE-README.md inside NVVPN-Sources.zip.\n']
+notices=['NVVPN '+app_version+'\n\nThe combined routing engine is provided under GPL-3.0-or-later. Third-party components retain their licenses. Source archive accompanies this build. No warranty. NVVPN is an independent project, not an official Amnezia application.\nSee NVVPN/windows-app/LICENSE-AUDIT.md and SOURCE-README.md inside NVVPN-Sources.zip.\n']
 sourcezip=out/'NVVPN-Sources.zip'
 manifest=[]
-if version!=(root/'windows-app/release-version.txt').read_text().strip():raise RuntimeError('Source version mismatch')
+if app_version!=(root/'windows-app/release-version.txt').read_text().strip():raise RuntimeError('Source version mismatch')
 with zipfile.ZipFile(sourcezip,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
-    z.writestr('BUILD-INFO.json',json.dumps({'version':version,'commit':args.commit,'platform':'windows-x64','go':'go1.27.4','dotnet':'4.8','inno':'7.1.1'},indent=2))
+    z.writestr('BUILD-INFO.json',json.dumps({'version':app_version,'commit':args.commit,'platform':'windows-x64','go':'go1.27.4','dotnet':'4.8','inno':'7.1.1'},indent=2))
     for relative in ['windows-app/release-version.txt','windows-app/release-notes.txt','windows-app/RELEASE-GUIDE.md','windows-app/Updates.cs','windows-app/UpdateInstall.cs','windows-app/UpdateUI.cs','windows-app/UpdateTests.cs','windows-app/UpdateScenario.cs','windows-app/UpdateTrust.cs','windows-app/ReleaseTools.cs','windows-app/LocalDiagnostics.cs','windows-app/Agreement.cs','windows-app/AgreementDialog.cs','windows-app/AgreementTests.cs','windows-app/Agreement.ru.txt','windows-app/OWNER-DECISIONS.md','windows-app/assets/ConnectionArt.jpg','windows-app/assets/ART-PROVENANCE.md','windows-app/App.cs','windows-app/MainWindow.cs','windows-app/MainWindow.xaml','windows-app/Lifecycle.cs','windows-app/Startup.cs','windows-app/rebuild-source.ps1','windows-app/SOURCE-README.md','windows-app/LICENSE-AUDIT.md','windows-app/LICENSE-REMEDIATION.md','windows-app/OWN-CODE-LICENSE-DECISION.md','windows-app/build.ps1','windows-app/build-installer.ps1','windows-app/README.md','windows-app/package.py','windows-app/installer/NVVPN.iss','windows-app/installer/make-icon.ps1','src/Profile.cs','windows-app/app.manifest']:
         z.write(root/relative,'NVVPN/'+relative)
     for f in (root/'windows-app/engine').glob('*'):
@@ -121,7 +121,7 @@ notices.append('\n===== gVisor af_xdp_ebpf.o =====\nApache-2.0 in the ELF licens
 names=['NVVPN.exe','NVVPN.exe.config','NVVPN.Engine.exe','wintun.dll','NVVPN.Engine.exe.sha256','wintun.dll.sha256','README.txt','THIRD-PARTY-NOTICES.txt','DEPENDENCIES.json','NVVPN-Sources.zip']
 hashes=''.join(hashlib.sha256((out/n).read_bytes()).hexdigest()+'  '+n+'\n' for n in names)
 (out/'SHA256SUMS.txt').write_text(hashes,encoding='utf-8')
-archive=release/('NVVPN-'+version+'-Windows-x64.zip')
+archive=release/('NVVPN-'+app_version+'-Windows-x64.zip')
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
-    for n in names+['SHA256SUMS.txt']:z.write(out/n,'NVVPN-'+version+'/'+n)
+    for n in names+['SHA256SUMS.txt']:z.write(out/n,'NVVPN-'+app_version+'/'+n)
 print(json.dumps({'package':str(archive),'bytes':archive.stat().st_size,'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'sourceModules':len(manifest)}))
