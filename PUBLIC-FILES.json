@@ -314,5 +314,21 @@
   "windows-app/release-version.txt": {
     "sha256": "832eddd23d57d755885475df2e64d0c4cd4fc65842e3a21d8379475d4be01c50",
     "bytes": 7
+  },
+  "LICENSE": {
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "bytes": 35149
+  },
+  "LICENSING.md": {
+    "sha256": "c5143abfd4ccc75dcebf6444dd49aabf785d12e12e3ca90e1e9ce9450f2f28a1",
+    "bytes": 5079
+  },
+  "LICENSE-SCOPE.json": {
+    "sha256": "0be10132e7e2c27bc589b7954610142a5ee6738a78e2e2a6934173862e33270f",
+    "bytes": 16643
+  },
+  "legal/THIRD-PARTY-PUBLICATION-ASSESSMENT.md": {
+    "sha256": "fec04496a45689fc3d5ca7ce66243d74291cdad9b6de123641924c84ebdfd381",
+    "bytes": 9356
   }
 }
