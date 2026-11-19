@@ -320,15 +320,15 @@
     "bytes": 35149
   },
   "LICENSING.md": {
-    "sha256": "c5143abfd4ccc75dcebf6444dd49aabf785d12e12e3ca90e1e9ce9450f2f28a1",
-    "bytes": 5079
+    "sha256": "ed0115981bf2c5eaa8bb18911f9e715e5ec8185a9f8cc4f6043ac371e03dede1",
+    "bytes": 5217
   },
   "LICENSE-SCOPE.json": {
     "sha256": "0be10132e7e2c27bc589b7954610142a5ee6738a78e2e2a6934173862e33270f",
     "bytes": 16643
   },
   "legal/THIRD-PARTY-PUBLICATION-ASSESSMENT.md": {
-    "sha256": "fec04496a45689fc3d5ca7ce66243d74291cdad9b6de123641924c84ebdfd381",
-    "bytes": 9356
+    "sha256": "ebdc7fec6bfc07357087287692ea97a457f7e79b241b696f3a530e422ab56c8d",
+    "bytes": 12995
   }
 }
