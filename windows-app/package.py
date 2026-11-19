@@ -3,7 +3,7 @@ import argparse,base64,hashlib,json,os,subprocess,zipfile
 
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
-parser.add_argument('--release-dir',type=Path,default=root/'release/nvvpn-0.4.4')
+parser.add_argument('--release-dir',type=Path,default=root/('release/nvvpn-'+(root/'windows-app/release-version.txt').read_text().strip()))
 parser.add_argument('--version',default=(root/'windows-app/release-version.txt').read_text().strip())
 parser.add_argument('--commit',default='uncommitted')
 args=parser.parse_args(); release=args.release_dir.resolve(); app_version=args.version

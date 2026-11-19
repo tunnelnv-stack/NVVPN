@@ -296,8 +296,8 @@
     "bytes": 2114
   },
   "windows-app/package.py": {
-    "sha256": "2f4d0b1d9145f8f7bccd1dfbebc1b48b022b4f15a4f9ee2677aacad245c4ab2d",
-    "bytes": 12147
+    "sha256": "a78d92cd27017bb24a184671dc82dec39cb8471d269128f08e16059a84a1be6c",
+    "bytes": 12205
   },
   "windows-app/prepare-repository.py": {
     "sha256": "31df35d9ab534ae3b09783e1b2bb40097ed6a4985e8b3532fbf676b3c99eae74",
@@ -308,11 +308,11 @@
     "bytes": 716
   },
   "windows-app/release-notes.txt": {
-    "sha256": "ca0bd00cac3229775d7c14aaa733ec19db111260e5f4ef084e9ccf6a9fbee22d",
-    "bytes": 291
+    "sha256": "15d111a3a08f5f40bc1976950120d24914d14952ef2a8998f5f81513c0a93236",
+    "bytes": 293
   },
   "windows-app/release-version.txt": {
-    "sha256": "175307e07ac7f0bdc0f3dba371ba3a202aaf3c0117368a93d2331e1bea4af4f3",
-    "bytes": 6
+    "sha256": "832eddd23d57d755885475df2e64d0c4cd4fc65842e3a21d8379475d4be01c50",
+    "bytes": 7
   }
 }
